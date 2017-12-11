@@ -1,0 +1,29 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.Sample" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="sampleViewStyle">@style/Widget.SampleView.InTheme</item>
+
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <item name="android:textColorPrimaryInverse">@color/textColorPrimaryInverse</item>
+        <item name="android:textColorSecondary">@color/textColorSecondary</item>
+        <item name="android:textColorSecondaryInverse">@color/textColorSecondaryInverse</item>
+        <item name="android:textColorTertiary">@color/textColorTertiary</item>
+        <item name="android:textColorTertiaryInverse">@color/textColorTertiaryInverse</item>
+    </style>
+
+    <style name="Theme.Sample.Dark">
+        <item name="android:windowBackground">@color/windowBackground</item>
+        <item name="isLightTheme">false</item>
+        <item name="android:textColorPrimary">@color/textColorPrimaryInverse</item>
+        <item name="android:textColorPrimaryInverse">@color/textColorPrimary</item>
+        <item name="android:textColorSecondary">@color/textColorSecondaryInverse</item>
+        <item name="android:textColorSecondaryInverse">@color/textColorSecondary</item>
+        <item name="android:textColorTertiary">@color/textColorTertiaryInverse</item>
+        <item name="android:textColorTertiaryInverse">@color/textColorTertiary</item>
+    </style>
+</resources>

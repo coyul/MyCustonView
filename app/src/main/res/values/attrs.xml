@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="sampleViewStyle" format="reference"/>
+
+    <declare-styleable name="SampleView">
+        <attr name="android:minWidth" />
+        <attr name="android:minHeight" />
+        <attr name="innerColor" format="color|reference" />
+        <attr name="borderColor" format="color|reference" />
+        <attr name="customBorderWidth" format="dimension|reference" />
+    </declare-styleable>
+
+</resources>
